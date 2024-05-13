@@ -1,0 +1,9 @@
+def all_variants(n):
+    for i in str('abc'):
+        yield i
+
+
+all_ = all_variants('abc')
+print(all_)
+for i in all_:
+    print(i)
